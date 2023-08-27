@@ -1,0 +1,54 @@
+html {
+  display: flex;
+  background-color: salmon;
+  justify-content: center;
+}
+
+h1 {
+  letter-spacing: 10px;
+  color: pink;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 4px;
+}
+
+#option-list {
+  list-style: none;
+  font-size: 16px;
+}
+
+#rock,
+#paper,
+#scissors {
+  font-size: 40px;
+  background-color: #f4511e;
+  padding: 16px 32px;
+  margin: 40px 30px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+#paper:hover, #rock:hover, #scissors:hover {
+  opacity: 1;
+}
+
+#comp-score,
+#player-score {
+  text-align: center;
+}
+
+#output {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+    color: pink;
+}
